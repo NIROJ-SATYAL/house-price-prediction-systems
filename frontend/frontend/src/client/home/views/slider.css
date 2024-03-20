@@ -1,0 +1,33 @@
+/* slider.css */
+
+/* Container for the slider */
+.slider-container {
+    max-width: 100%; /* Adjust max-width as needed */
+    margin: 0 auto;
+    max-height: 80%; /* Center the slider */
+}
+
+/* Styles for each slider item */
+.slider-item {
+    position: relative; /* Set position to relative to enable absolute positioning for overlays */
+    text-align: center; /* Center align the image and text */
+}
+
+/* Legend style */
+.legend {
+    font-size: 1.5rem; /* Adjust font size as needed */
+    margin-top: 10px; /* Add margin to create space between image and legend */
+}
+
+/* Text overlay style */
+.text-overlay {
+    position: absolute; /* Position the text overlay absolutely */
+    top: 50%; /* Position the overlay at 50% from the top */
+    left: 20%; /* Position the overlay at 20% from the left */
+    transform: translate(-50%, -50%); /* Center the overlay */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    color: white; /* Text color */
+    padding: 10px; /* Add padding to the overlay */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    
+}
