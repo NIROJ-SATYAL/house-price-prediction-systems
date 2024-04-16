@@ -1,4 +1,4 @@
-export const validate = (formData) => {
+ const validate = (formData) => {
     const errors = {};
 
 
@@ -24,9 +24,6 @@ export const validate = (formData) => {
 
     // Validate BldgType
     if (!formData.BldgType) {
-        errors.BldgType = "Dwelling Type is required";
-    }
-
     // Validate OverallQual
     if (!formData.OverallQual) {
         errors.OverallQual = "Material and Finish Quality is required";
@@ -66,5 +63,6 @@ export const validate = (formData) => {
         errors.SaleType = "SaleType is required";
     }
     return errors;
-};
+}
+}
 export default validate;

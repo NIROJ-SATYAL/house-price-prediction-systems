@@ -23,7 +23,7 @@ function Predict() {
   const [tooltipMessage13, setTooltipMessage13] = useState("");
 
   const [formData, setFormData] = useState({
-    // MSSubClass:"150",
+   
     MSZoning: "",
     LotArea: "",
     Street: "",
@@ -245,7 +245,7 @@ function Predict() {
 
               <div className="form-group">
                 <label>
-                  Lot Size:
+                  Area in sq.feet:
                   <span
                     className="info-icon"
                     onMouseEnter={() =>
